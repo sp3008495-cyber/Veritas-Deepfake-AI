@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { Sparkles, Scan } from 'lucide-react';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import UploadCenter from './components/UploadCenter';
-import VerdictBanner from './components/VerdictBanner';
-import ImageForensics from './components/ImageForensics';
-import AudioForensics from './components/AudioForensics';
-import VideoForensics from './components/VideoForensics';
-import ReportModal from './components/ReportModal';
-import { ANALYSIS_STEPS, buildFileForensics, formatSeconds } from './utils/forensicEngine';
+import Header from './Header';
+import Sidebar from './Sidebar';
+import UploadCenter from './UploadCenter';
+import VerdictBanner from './VerdictBanner';
+import ImageForensics from './ImageForensics';
+import AudioForensics from './AudioForensics';
+import VideoForensics from './VideoForensics';
+import ReportModal from './ReportModal';
+import { ANALYSIS_STEPS, buildFileForensics, formatSeconds } from './forensicEngine';
 
 export default function App() {
   const [activeModality, setActiveModality] = useState('image');
