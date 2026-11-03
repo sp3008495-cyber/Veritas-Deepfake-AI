@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { Upload, FileAudio, FileVideo, Scan, RefreshCw } from 'lucide-react';
-import { ANALYSIS_STEPS } from '../utils/forensicEngine';
+import { ANALYSIS_STEPS } from './forensicEngine';
 
 export default function UploadCenter({
   activeModality,
